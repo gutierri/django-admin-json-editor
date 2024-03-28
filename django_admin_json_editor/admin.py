@@ -53,7 +53,6 @@ class JSONEditorWidget(forms.Widget):
 
         if self._editor_options['theme'] == 'bootstrap4':
             css['all'].append('django_admin_json_editor/bootstrap/css/bootstrap.min.css')
-            js.append('django_admin_json_editor/jquery/jquery-3.5.1.slim.min.js')
             js.append('django_admin_json_editor/bootstrap/js/bootstrap.bundle.min.js')
 
         if self._sceditor:
